@@ -7,7 +7,6 @@ import Card from '../components/Card';
 import DefaultStyles from '../constants/default-styles';
 import MainButton from '../components/MainButton';
 import BodyText from '../components/BodyText';
-import { FaceAnchorProp } from 'expo/build/AR';
 
 const generateRandomBetween = (min, max, exclude) => {
     min = Math.ceil(min);
